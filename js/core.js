@@ -135,7 +135,7 @@
 				fileData = fileList[i];
 				name = fileData[0];
 				size = Math.floor((fileData[1]/1024), 10);
-				size = ( size > 1024 ) ? size = (size/1024).toFixed(1) + 'M' : size = size;
+				size = ( size > 1024 ) ? (size/1024).toFixed(1) + 'M' : size + 'k';
 				lastmod = fileData[2];
 				link = fileData[3];
 				if (name.indexOf('.gif') > 0) {
