@@ -1,0 +1,7 @@
+{
+    "default": {
+        "bucket":       "i.awe-so.me",
+        "local_path":   ".",
+        "bucket_path":  "/"
+    }
+}
